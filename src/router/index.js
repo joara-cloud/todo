@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Todo from '../views/Todo.vue'
+import Memo from '../views/Memo.vue'
 
 const routes = [
   {
     path: '/todo',
     name: 'Todo',
     component: Todo
+  },
+  {
+    path: '/memo',
+    name: 'Memo',
+    component: Memo
   },
   {
     path: '/about',
